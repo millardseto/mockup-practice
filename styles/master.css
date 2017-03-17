@@ -1,10 +1,31 @@
+.top-header {
+  font-family: sans-serif;
+  padding-top: .5rem;
+  padding-left: 2rem;
+  padding-right: .5rem;
+  padding-bottom: 1rem;
+  background-color: black;
+}
+
+.general-booking {
+  color: red;
+  font-size: 1.2rem;
+  float: right;
+  padding-right: .5rem;
+}
+
+.specific-booking {
+  color: red;
+  float: right;
+}
+
 .main-title {
   font-family: sans-serif;
   color: white;
   font-size: 3rem;
 }
 header {
-  background-color: black;
+
 }
 
 .sub-title {
@@ -15,10 +36,12 @@ header {
 
 nav {
   font-family:sans-serif;
-
   background-color: grey;
   padding-top: .5rem;
   padding-bottom: .5rem;
+}
+nav a {
+  color: purple;
 }
 
 h1, h2, h3, h4, p {
