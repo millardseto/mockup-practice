@@ -59,11 +59,12 @@ h1, h2, h3, h4, p {
 }
 
 .story {
-
+  line-height: 1.5rem;
 }
 
 .testimonial {
   font-style: italic;
+  line-height: 1.5rem;
 }
 
 footer  {
@@ -87,7 +88,7 @@ aside {
   margin-top: 1rem;
   margin-bottom: 1rem;
   float: right;
-  width: 200px;
+  width: 240px;
   border: 1px solid black;
   padding: 1rem;
   margin-left: 1rem;
@@ -113,4 +114,13 @@ aside {
 .aside-image {
   width: 207px;
   height: 123px;
+}
+
+.feature-col1 {
+  width: 50%;
+}
+
+.feature-col2 {
+  width: 50%;
+  float: right;
 }
