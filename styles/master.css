@@ -23,6 +23,7 @@
   font-family: sans-serif;
   color: white;
   font-size: 3rem;
+  margin-bottom: .5rem;
 }
 header {
 
@@ -32,6 +33,9 @@ header {
   font-family: sans-serif;
   color: grey;
   font-size: 1.5rem;
+  font-weight:100;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 nav {
@@ -63,8 +67,18 @@ address {
   font-style:normal; /* override italic */
 }
 
+section {
+  /* avoid breaking layout */
+  min-width: 800px;
+  min-height: 500px;
+}
+
 aside {
+  margin-top: 1rem;
+  float: right;
+  width: 200px;
   border: 1px solid black;
+  padding: 1rem;
 }
 
 .kitty-mail {
@@ -73,4 +87,10 @@ aside {
 
 .footer-bottom {
   text-align: center;
+}
+
+/* 207 x 123 */
+.aside-image {
+  width: 207px;
+  height: 123px;
 }
