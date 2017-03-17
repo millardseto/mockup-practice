@@ -1,0 +1,53 @@
+.main-title {
+  font-family: sans-serif;
+  color: white;
+  font-size: 3rem;
+}
+header {
+  background-color: black;
+}
+
+.sub-title {
+  font-family: sans-serif;
+  color: grey;
+  font-size: 1.5rem;
+}
+
+nav {
+  font-family:sans-serif;
+
+  background-color: grey;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+h1, h2, h3, h4, p {
+  font-family: sans-serif;
+}
+
+.testimonial {
+  font-style: italic;
+}
+
+footer  {
+  color: white;
+  background-color: black;
+  padding: 1rem;
+}
+
+address {
+  font-family: sans-serif;
+  font-style:normal; /* override italic */
+}
+
+aside {
+  border: 1px solid black;
+}
+
+.kitty-mail {
+  color: red;
+}
+
+.footer-bottom {
+  text-align: center;
+}
