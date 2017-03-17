@@ -25,6 +25,10 @@
   font-size: 3rem;
   margin-bottom: .5rem;
 }
+
+section {
+
+}
 header {
 
 }
@@ -52,6 +56,10 @@ h1, h2, h3, h4, p {
   font-family: sans-serif;
 }
 
+.story {
+
+}
+
 .testimonial {
   font-style: italic;
 }
@@ -70,15 +78,25 @@ address {
 section {
   /* avoid breaking layout */
   min-width: 800px;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 aside {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   float: right;
   width: 200px;
   border: 1px solid black;
   padding: 1rem;
+  margin-left: 1rem;
+}
+
+.feature-header {
+  text-align: center;
+}
+
+.feature-name {
+  text-align: center;
 }
 
 .kitty-mail {
