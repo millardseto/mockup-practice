@@ -1,5 +1,8 @@
-.top-header {
+body {
   font-family: sans-serif;
+}
+
+.top-header {
   padding-top: .5rem;
   padding-left: 2rem;
   padding-right: .5rem;
@@ -15,13 +18,11 @@
 }
 
 .specific-booking {
-  font-family: sans-serif;
   color: red;
   float: right;
 }
 
 .main-title {
-  font-family: sans-serif;
   color: white;
   font-size: 2.5rem;
   margin-top: 4rem;
@@ -29,33 +30,25 @@
 }
 
 section {
-
-}
-header {
-
+  padding-left: 1.5rem;
 }
 
 .sub-title {
-  font-family: sans-serif;
   color: grey;
   font-size: 1.5rem;
-  font-weight:100;
+  font-weight: 100;
   margin-top: .5rem;
   margin-bottom: .5rem;
 }
 
 nav {
-  font-family:sans-serif;
   background-color: grey;
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
+
 nav a {
   color: purple;
-}
-
-h1, h2, h3, h4, p {
-  font-family: sans-serif;
 }
 
 .story {
@@ -67,15 +60,15 @@ h1, h2, h3, h4, p {
   line-height: 1.5rem;
 }
 
-footer  {
+footer {
   color: white;
   background-color: black;
   padding: 1rem;
 }
 
 address {
-  font-family: sans-serif;
-  font-style:normal; /* override italic */
+  font-style: normal;
+  /* override italic */
 }
 
 section {
@@ -113,7 +106,6 @@ aside {
   text-align: center;
 }
 
-/* 207 x 123 */
 .aside-image {
   width: 207px;
   height: 123px;
