@@ -2,6 +2,8 @@ body {
   font-family: sans-serif;
 }
 
+
+
 .top-header {
   padding-top: .5rem;
   padding-left: 2rem;
@@ -16,10 +18,16 @@ body {
   float: right;
   padding-right: .5rem;
 }
+.general-booking:after {
+    content:' \2794';
+}
 
 .specific-booking {
   color: red;
   float: right;
+}
+.specific-booking:after {
+    content:' \2794';
 }
 
 .main-title {
