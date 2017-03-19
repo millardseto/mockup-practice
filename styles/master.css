@@ -55,6 +55,7 @@ nav {
   padding-top: .5rem;
   padding-bottom: .5rem;
   display: flex;
+  box-shadow: 0 2px 4px grey; /* blur bottom edge */
 }
 
 nav a {
