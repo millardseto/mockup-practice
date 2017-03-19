@@ -51,6 +51,7 @@ section {
 
 nav {
   background-color: grey;
+  padding-left: 2rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   display: flex;
