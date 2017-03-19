@@ -121,9 +121,13 @@ aside {
 
 .feature-col1 {
   width: 50%;
+  float: left;
 }
 
 .feature-col2 {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 70px;
   width: 50%;
-  float: right;
+
 }
