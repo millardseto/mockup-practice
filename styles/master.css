@@ -53,10 +53,12 @@ nav {
   background-color: grey;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  display: flex;
 }
 
 nav a {
   color: purple;
+  flex: 1;
 }
 
 .story {
