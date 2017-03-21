@@ -2,8 +2,6 @@ body {
   font-family: sans-serif;
 }
 
-
-
 .top-header {
   padding-top: .5rem;
   padding-left: 2rem;
@@ -136,11 +134,11 @@ aside {
   vertical-align: bottom;
   height: 55px;
   width: 45%;
-
 }
 
 .dark-feature {
   color: white;
   background-color: black;
-  height: 800px;
+  height: 500px;
+  margin-bottom: 1rem;
 }
