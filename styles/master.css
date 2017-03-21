@@ -83,8 +83,9 @@ address {
 
 section {
   /* avoid breaking layout */
+  /*
   min-width: 800px;
-  min-height: 550px;
+  min-height: 550px;*/
 }
 
 aside {
@@ -141,4 +142,10 @@ aside {
   background-color: black;
   height: 500px;
   margin-bottom: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
