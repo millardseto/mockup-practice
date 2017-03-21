@@ -19,7 +19,7 @@ body {
   padding-right: .5rem;
 }
 .general-booking:after {
-    content:' \2794';
+    content:' \2794'; /* Unicode 2794 heavy wide-headed right arrow */
 }
 
 .specific-booking {
