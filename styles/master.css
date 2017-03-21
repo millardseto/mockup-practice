@@ -138,3 +138,9 @@ aside {
   width: 45%;
 
 }
+
+.dark-feature {
+  color: white;
+  background-color: black;
+  height: 800px;
+}
