@@ -92,8 +92,7 @@ section {
 aside {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  float: right;
-  width: 240px;
+  width: 270px;
   border: 1px solid black;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -126,15 +125,21 @@ aside {
   height: 123px;
 }
 
+.feature-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 .feature-col1 {
+  font-size: .9rem;
   width: 55%;
-  float: left;
+}
+.feature-col1 p {
+  margin-bottom: 0;
 }
 
 .feature-col2 {
-  display: table-cell;
-  vertical-align: bottom;
-  height: 55px;
   width: 45%;
 }
 
