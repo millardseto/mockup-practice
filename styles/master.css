@@ -25,7 +25,7 @@ body {
   float: right;
 }
 .specific-booking:after {
-    content:' \2794';
+    content:' \2794'; /* Unicode 2794 heavy wide-headed right arrow */
 }
 
 .main-title {
@@ -80,13 +80,6 @@ footer {
 address {
   font-style: normal;
   /* override italic */
-}
-
-section {
-  /* avoid breaking layout */
-  /*
-  min-width: 800px;
-  min-height: 550px;*/
 }
 
 aside {
