@@ -53,12 +53,13 @@ nav {
   padding-top: .5rem;
   padding-bottom: .5rem;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   box-shadow: 0 2px 4px grey; /* blur bottom edge */
 }
 
 nav a {
   color: purple;
-  flex: 1;
 }
 
 .story {
