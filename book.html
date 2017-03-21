@@ -25,9 +25,24 @@
         <h2>Book a Cat</h2>
         <p class="story">Nostrud aute excepteur eiusmod deserunt sunt qui est eu. Duis exercitation enim sunt tempor voluptate deserunt est. Nulla consequat excepteur est aliqua aliqua sint tempor velit qui irure aliquip. Consectetur occaecat incididunt elit consequat sunt sit duis elit est proident. Est duis voluptate et duis anim nisi ea cillum. Reprehenderit ullamco pariatur magna sint reprehenderit ad aliqua laboris aute reprehenderit irure commodo cillum ullamco tempor cupidatat.</p>
         <form class="" action="index.html" method="post">
-          <input type="text" name="first-name" value="John">
-          <input type="text" name="last-name" value="Doe">
-          <input type="text" name="phone" value="206-555-1234">
+
+          <input type="radio" name="rate" value="1" checked="true"> Daily
+          <input type="radio" name="rate" value="2"> Weekly
+          <input type="radio" name="rate" value="3"> Weekend<br/>
+
+
+          <label for="cat">Cat:</label>
+          <input id="cat" type="text" name="cat" value="odin"><br/>
+
+          <label for="first-name">First Name:</label>
+          <input id="first-name" type="text" name="first-name" value="John"><br/>
+
+          <label for="last-name">Last Name:</label>
+          <input id="last-name" type="text" name="last-name" value="Doe"><br/>
+
+          <label for="phone">Phone#:</label>
+          <input id="phone" type="text" name="phone" value="206-555-1234"><br/>
+
           <button type="submit" name="button">Book it</button>
         </form>
       </article>
