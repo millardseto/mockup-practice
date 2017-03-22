@@ -7,22 +7,22 @@ $(function(){
     }
 
     /* the home page doesnt need to see home menu item */
-    $('#nav-home').hide();
+    //$('#nav-home').hide();
 
     /* now that the partial page has loaded, wireup links on the partial page */
-    $('.specific-booking').click(loadPage);
+    $('.specific-booking').on('click', loadPage);
 
   });
 
   /* click event handler for nav anchors and booking anchors */
-  $('nav a, .general-booking').click(loadPage);
+  $('nav a, .general-booking').on('click', loadPage);
 
 
   function loadPage(){
     event.preventDefault(); // for anchor tag, don't navigate
 
     /* unhide home nav */
-    $('#nav-home').show();
+    //$('#nav-home').show();
 
     /* get the filename from the anchor tag */
     var file = this.href;
