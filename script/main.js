@@ -6,9 +6,16 @@ $(function(){
       $("#main").text("failed to load page.");
     }
 
+    /* the home page doesnt need to see home menu item */
+    $('#nav-home').hide();
+
     /* now that the partial page has loaded, wireup links on the partial page */
     $('.specific-booking').click(function(){
       event.preventDefault(); // for anchor tag, don't navigate
+
+      /* unhide home nav */
+      $('#nav-home').show();
+            
       var file = this.href;
       $("#main").load(file);
     });
@@ -18,6 +25,10 @@ $(function(){
   /* click event handler for nav anchors and booking anchors */
   $('nav a, .general-booking').click(function(){
     event.preventDefault(); // for anchor tag, don't navigate
+
+    /* unhide home nav */
+    $('#nav-home').show();
+
     var file = this.href;
     $("#main").load(file, function(response, status){
       if (status == "success"){
