@@ -3,7 +3,7 @@ $(function(){
   /* load home page - since user hasnt clicked anything yet */
   $("#main").load("main.html", function(response, status) {
     if (status != "success") {
-      $("#main").text("failed to load page.");
+      $("#main").text("Failed to load page.");
     }
 
     /* the home page doesnt need to see home menu item */
@@ -28,10 +28,11 @@ $(function(){
     var file = this.href;
 
     $("#main").load(file, function(response, status){
+      // status='fail'; for verifying failure message
       if (status == "success"){
         /* if there are links in content pages, may need to wire up here */
       } else {
-        $("#main").text = "failed to load page."
+        $("#main").text("Failed to load page.");
       }
     });
 
