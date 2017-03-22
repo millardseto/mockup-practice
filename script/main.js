@@ -24,6 +24,13 @@ $(function(){
     /* unhide home nav */
     //$('#nav-home').show();
 
+    // play random cat sound
+    var fileindex = getRandomInt(0, 5);
+    var filename = './audio/cat_' + fileindex + '.mp3'
+    var audio = new Audio(filename);
+    audio.play();
+
+
     /* get the filename from the anchor tag */
     var file = this.href;
 
@@ -36,6 +43,11 @@ $(function(){
       }
     });
 
+  }
+
+
+  function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
 });
