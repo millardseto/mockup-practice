@@ -18,6 +18,7 @@ $(function(){
   $('nav a, .general-booking').on('click', loadPage);
 
 
+  /* load html fragment onto index page */
   function loadPage(){
     event.preventDefault(); // for anchor tag, don't navigate
 
@@ -34,6 +35,7 @@ $(function(){
     /* get the filename from the anchor tag */
     var file = this.href;
 
+    /* load the html fragment into main div */
     $("#main").load(file, function(response, status){
       // status='fail'; for verifying failure message
       if (status == "success"){
@@ -45,7 +47,7 @@ $(function(){
 
   }
 
-
+  /* generate random number between two given numbers (inclusive) */
   function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
   }
