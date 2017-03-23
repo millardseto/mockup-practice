@@ -40,6 +40,9 @@ $(function(){
       // status='fail'; for verifying failure message
       if (status == "success"){
         /* if there are links in content pages, may need to wire up here */
+
+        /* now that the partial page has loaded, wireup links on the partial page */
+        $('.specific-booking').on('click', loadPage);
       } else {
         $("#main").text("Failed to load page.");
       }
